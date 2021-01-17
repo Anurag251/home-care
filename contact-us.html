@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- jquery -->
+    <script src="jquery/jquery.js"></script>
+
+    <!-- javaScript -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="first" id="first">
+        <nav>
+            <div class="logo-name">
+                <span>CAREPOINT HOME</span><br>
+                <span>CARE SERVICES</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <!-- <input type="checkbox" id="btn-1"> -->
+                    <!-- <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul> -->
+                </li>
+                <!-- <li> -->
+                    <!-- <a href="#">Product Page</a> -->
+                    <!-- <input type="checkbox" id="btn-2"> -->
+                    <!-- <ul>
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li>
+                            <a href="#">More <span class="fa fa-plus"></span></a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="#">Product 1</a></li>
+                                <li><a href="#">Product 2</a></li>
+                                <li><a href="#">Product 3</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                <!-- </li> -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- side-nav -->
+<header class="second">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="logo-name">
+                    <h4>CAREPOINT HOME</h4>
+                    <h4>CARE SERVICES</h4>
+                </div>
+            </div>
+            <div class="col-5"></div>
+            <div class="col-2">
+                <div class="button">
+                    <button class="open-slide" onclick="openSlideMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="side-menu" class="side-nav">
+      <a href="#" onclick="closeSlideMenu()" class="btn-close">&times;</a>
+      <ul>
+        <li class="logo">
+          <img src="img/logo.png" alt="">
+        </li>
+        <li>
+          <a href="index.html" class="home-btn">Home
+          </a>
+        </li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li>
+          <a href="about-us.html" class="about-btn">About Us
+            <!-- <span class="fas fa-caret-down second"></span> -->
+          </a>
+          <!-- <ul class="about-show">
+            <li><a href="about-us.html">All About Us</a></li>
+          </ul> -->
+        </li>
+        <li>
+          <a href="services.html" class="serv-btn">Services
+            <!-- <span class="fas fa-caret-down third"></span> -->
+          </a>
+          <!-- <ul class="serv-show">
+            <li><a href="services.html">All Services</a></li>
+          </ul> -->
+        </li>
+        <!-- <li> -->
+          <!-- <a href="#" class="prod-btn">Product Page -->
+            <!-- <span class="fas fa-caret-down fourth"></span> -->
+          <!-- </a> -->
+          <!-- <ul class="prod-show">
+            <li><a href="#">All Product</a></li>
+          </ul> -->
+        <!-- </li> -->
+      </ul>
+    </div>
+  </header>
+<!-- slider -->
+<!-- <div class="slider2">
+    <div class="image">
+        <img src="img/slider1.jpg" alt="">
+    </div>
+    <div class="text">
+        <h2>We do whatever it takes to bring you peace</h2>
+        <h1>CONTACT US</h1>
+    </div>
+</div> -->
+
+
+
+<!-- map -->
+<div class="location">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12  no-padding">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10639.130802395584!2d85.31464363807234!3d27.702313004418166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19006da38c97%3A0xeb1680160e08401c!2sRatna%20Park!5e0!3m2!1sen!2snp!4v1585136144355!5m2!1sen!2snp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="city-location">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="desc">
+                    <h5>OUR COMMITMENT</h5>
+                    <h6>Reason why you should choose us</h6>
+                    <p>We’ve combined a new kind of doctor’s experience that blends the highest level of health care with exceptional service. People can enroll membership by paying $129.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="locations">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/location.png" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Location</h6>
+                            <p>NEPAL, Kathmandu - 14400 Str. Ratnapark 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="call-center">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/support.png" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Call Center</h6>
+                            <p>+977 9841234567</p>
+                            <p>+977 9801234567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="email-us">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img/email-us.png" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Email Us</h6>
+                            <p>hello.world@homecare.com</p>
+                            <p>hello@homecare.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card">
+                    <div class="image">
+                        <img src="img/c-image1.jpg" alt="">
+                    </div>
+                    <h6>Kathmandu Office</h6>
+                    <p><i class="fas fa-map-marked-alt"></i> Ratnapark, Kathmandu, Nepal</p>
+                    <p><i class="fas fa-envelope"></i> info@yourdomain.com</p>
+                    <p><i class="fas fa-phone"></i> (+01) 4125678</p>
+                    <a href="#">Learn More</a>
+                    
+                </div> -->
+            </div>
+            <div class="col-md-8">
+                <div class="contact-form">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-md-6  col-sm-12">
+                                    <p for="">Full name *</p>
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-12">
+                                    <p for="">I’m interested in *</p>
+                                    <select id="inputState">
+                                        <option selected>Please select?</option>
+                                        <option>Home Care</option>
+                                        <option>Hospital Care</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6 col-sm-12">
+                                    <p for="">Your email *</p>
+                                    <input type="email" placeholder="name@company.com">
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <p for="">Your phone *</p>
+                                    <input type="text" placeholder="XXX-XXXXXXX">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <p for="exampleFormControlTextarea1">Your Message *</p>
+                                    <textarea class="" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <button class="free-consultation-btn" type="submmit">Get A Free Consultation</button>
+                        </form>
+                    </div>
+                        
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="text">
+                    <h5><i class="fas fa-phone"></i> +977-9801234567</h5>
+                    <h5 style="text-transform: lowercase;"><i class="fas fa-envelope"></i> abc@carepoint.com</h5>
+                    <h5><i class="fas fa-map"></i> Nepal, Kathmandu, Ratnapark</h5>
+                    <form action="">
+                        <h4>Subscribe</h4>
+                        <input type="email" placeholder="Enter your email"><button><i class="far fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Usefull Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Product Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Services</h4>
+                    <h5><span> Post Hospitalization:</span> As in the Case of Chronic patient and surgery patients takes care of you at your home.</h5>
+                    <h5><span> Home-base oncological Care: </span> To help you in this difficultie period it takes to provide that cancer patient a better quality life.</h5>
+                    <h5><span> Dressing Services:</span> Surgery dressing, Wound dressing, Boil, Absec Dressing, Nail extended.</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Follow Us</h4>
+                </div>
+                <div class="links">
+                    <div class="row">
+                        <div class="col-4 facebook">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="col-4 instagram">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-4 linkedin">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>&#169; Copyright 2020.</h2>
+</footer>
+
+    
+</body>
+</html>

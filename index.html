@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="jquery/jquery.js"></script>
+
+    <!-- javaScript -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="first" id="first">
+        <nav>
+            <div class="logo-name">
+                <span>CAREPOINT HOME</span><br>
+                <span>CARE SERVICES</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <!-- <input type="checkbox" id="btn-1"> -->
+                    <!-- <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul> -->
+                </li>
+                <!-- <li> -->
+                    <!-- <a href="#">Product Page</a> -->
+                    <!-- <input type="checkbox" id="btn-2"> -->
+                    <!-- <ul>
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li>
+                            <a href="#">More <span class="fa fa-plus"></span></a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="#">Product 1</a></li>
+                                <li><a href="#">Product 2</a></li>
+                                <li><a href="#">Product 3</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                <!-- </li> -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- side-nav -->
+<header class="second">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="logo-name">
+                    <h4>CAREPOINT HOME</h4>
+                    <h4>CARE SERVICES</h4>
+                </div>
+            </div>
+            <div class="col-5"></div>
+            <div class="col-2">
+                <div class="button">
+                    <button class="open-slide" onclick="openSlideMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="side-menu" class="side-nav">
+      <a href="#" onclick="closeSlideMenu()" class="btn-close">&times;</a>
+      <ul>
+        <li class="logo">
+          <img src="img/logo.png" alt="">
+        </li>
+        <li>
+          <a href="index.html" class="home-btn">Home
+          </a>
+        </li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li>
+          <a href="about-us.html" class="about-btn">About Us
+            <!-- <span class="fas fa-caret-down second"></span> -->
+          </a>
+          <!-- <ul class="about-show">
+            <li><a href="about-us.html">All About Us</a></li>
+          </ul> -->
+        </li>
+        <li>
+          <a href="services.html" class="serv-btn">Services
+            <!-- <span class="fas fa-caret-down third"></span> -->
+          </a>
+          <!-- <ul class="serv-show">
+            <li><a href="services.html">All Services</a></li>
+          </ul> -->
+        </li>
+        <!-- <li> -->
+          <!-- <a href="#" class="prod-btn">Product Page -->
+            <!-- <span class="fas fa-caret-down fourth"></span> -->
+          <!-- </a> -->
+          <!-- <ul class="prod-show">
+            <li><a href="#">All Product</a></li>
+          </ul> -->
+        <!-- </li> -->
+      </ul>
+    </div>
+  </header>
+
+<!-- slider -->
+<div id="container">
+    <div id="slider">
+        <div class="slid" id="slid1">
+            <div class="content">
+                <div class="heading">
+                    <h1>Dedicated <br> Medicare</h1>
+                </div>
+                <div class="line"></div>
+                <div class="des">
+                    <h5>Becaues your health matter the most</h5>
+                </div>
+            </div>
+        </div>
+        <div class="slid" id="slid2">
+            <div class="content">
+                <div class="heading">
+                    <h1>Dedicated <br> Medicare</h1>
+                </div>
+                <div class="line"></div>
+                <div class="des">
+                    <h5>Becaues your health matter the most</h5>
+                </div>
+            </div>
+        </div>
+        <div class="slid" id="slid3">
+            <div class="content">
+                <div class="heading">
+                    <h1>Dedicated <br> Medicare</h1>
+                </div>
+                <div class="line"></div>
+                <div class="des">
+                    <h5>Becaues your health matter the most</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- get-care-now -->
+<!-- <div class="get-care-now">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-12 no-padding">
+                <div class="location">
+                    <h5>Select your location</h5>
+                    <ul>
+                        <li>
+                            <h6 class="location-btn" id="location-btn">
+                                Choose a location
+                                <span class="fas fa-caret-down first"></span>
+                            </h6>
+                            <ul class="location-show">
+                                <li><a href="#">Kathmandu</a></li>
+                                <li><a href="#">Hetuda</a></li>
+                                <li><a href="#">Birgunj</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 no-padding">
+                <div class="services">
+                    <h5>Select your service</h5>
+                    <ul>
+                        <li>
+                            <h6 class="services-btn" id="services-btn">
+                                Choose a srevices
+                                <span class="fas fa-caret-down second"></span>
+                            </h6>
+                            <ul class="services-show">
+                                <li><a href="#">Kathmandu</a></li>
+                                <li><a href="#">Hetuda</a></li>
+                                <li><a href="#">Birgunj</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 no-padding">
+                <div class="submmit-btn" id="submmit-btn">
+                    <a href="#">Get care now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- ABOUT US -->
+<div class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="image" data-aos="fade-up">
+                    <img src="img/about-us.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="desc">
+                    <h5>ABOUT US</h5>
+                    <h6>We established cooperation with various global partners.</h6>
+                    <p>We've combined a new kind of doctor's experience that blends the highest level of health care with exceptional service. People can enroll membership by paying only an annual membership fee of just $129.</p>
+                    <a href="about-us.html">
+                        More About Us
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- OUR SERVICES -->
+<div class="our-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="desc">
+                    <h5>OUR SERVICES</h5>
+                    <h6>Health Care Services</h6>
+                    <p>We make efforts to change the way that healthcare services are offered in order to meet the changing needs of our patients, both for the present and future.</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Medication management</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Administering Injection</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Bed Soer management</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">TV therapy and iniusions</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Oxygen administration</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Home-base oncological Care</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Clinical Laboratory Services</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Baby and Mother health care</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Reles tube feeding</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Vital Sign monitoring</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Wound Care</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Pain Management</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Orinary Catheter</h6>
+                                    <p class="card-text"></p>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Post Hospitalization</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <img src="img/services1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h6 class="card-title">Dressing Services</h6>
+                                    <a href="services.html">More Details  >></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <br>
+                    <br>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- OUR COMMITMENT -->
+<div class="our-commitment">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="desc">
+                    <h5>OUR COMMITMENT</h5>
+                    <h6>Reason why you should choose us</h6>
+                    <p>We’ve combined a new kind of doctor’s experience that blends the highest level of health care with exceptional service. People can enroll membership by paying $129.</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-home"></i>
+                                    <h6 class="card-title">Experienced Experts</h6>
+                                    <p class="card-text">Get the best services from experienced experts in caregiving industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-phone-volume"></i>
+                                    <h6 class="card-title">Daily Home Care</h6>
+                                    <p class="card-text">We send a doctor to visit the patient at home to diagnose and treat …</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-wheelchair"></i>
+                                    <h6 class="card-title">Affordabe Prices</h6>
+                                    <p class="card-text">We charge based on the conditions, needs, and budgets of customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-laugh"></i>
+                                    <h6 class="card-title">Dadicated Attitude</h6>
+                                    <p class="card-text">We guarantee all staff would have an appropriate attitude towards patients.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-stethoscope"></i>
+                                    <h6 class="card-title">On-time Delivery</h6>
+                                    <p class="card-text">We set accurate schedules and follow closely to achieve efficiency.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <p class="text-center lets-get-sterted">Don’t hesitate, contact us for better help and services. <a href="#"> Let’s get started</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Free Consultation -->
+<div class="free">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <div class="image">
+                                <img src="img/doctors.jpg" class="card-img" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h6>Free Consultation</h6>
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-md-6  col-sm-12">
+                                            <p for="">Full name *</p>
+                                            <input type="text" placeholder="First name">
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-12">
+                                            <p for="">I’m interested in *</p>
+                                            <select id="inputState">
+                                              <option selected>Please select?</option>
+                                              <option>Home Care</option>
+                                              <option>Hospital Care</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p for="">Your email *</p>
+                                            <input type="email" placeholder="name@company.com">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <p for="">Your phone *</p>
+                                            <input type="text" placeholder="XXX-XXXXXXX">
+                                        </div>
+                                    </div>
+                                    <button class="free-consultation-btn" type="submmit">Get A Free Consultation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- nurse-care -->
+<div class="nurse-care">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="img/nurse.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="desc">
+                    <h5>Nursing Care at Home</h5>
+                    <h6>( 24 hours Personal Nurcing care )</h6>
+                    <div class="para">
+                        <p>A nurse is the centre of home health care team. Our home health. Care nurses are selected through experience
+                            process. they are qualified, redistered and have year of experience in multi-hospital.
+                            <br> <br>
+                            Our senior clinical nurses supenisors visit patients in the hospital or at their home carefully.Our carepoint home care nurses
+                            assist patients during recovery from surgery, injury or illness, helps in managing chronic disease like Cancer, Diabetis, Melicus etc.
+                            provice a wide range of nursing services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- map -->
+<div class="location" id="location">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12  no-padding">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10639.130802395584!2d85.31464363807234!3d27.702313004418166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19006da38c97%3A0xeb1680160e08401c!2sRatna%20Park!5e0!3m2!1sen!2snp!4v1585136144355!5m2!1sen!2snp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="text">
+                    <h5><i class="fas fa-phone"></i> +977-9801234567</h5>
+                    <h5 style="text-transform: lowercase;"><i class="fas fa-envelope"></i> abc@carepoint.com</h5>
+                    <h5><i class="fas fa-map"></i> Nepal, Kathmandu, Ratnapark</h5>
+                    <form action="">
+                        <h4>Subscribe</h4>
+                        <input type="email" placeholder="Enter your email"><button><i class="far fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Usefull Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Product Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Services</h4>
+                    <h5><span> Post Hospitalization:</span> As in the Case of Chronic patient and surgery patients takes care of you at your home.</h5>
+                    <h5><span> Home-base oncological Care: </span> To help you in this difficultie period it takes to provide that cancer patient a better quality life.</h5>
+                    <h5><span> Dressing Services:</span> Surgery dressing, Wound dressing, Boil, Absec Dressing, Nail extended.</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Follow Us</h4>
+                </div>
+                <div class="links">
+                    <div class="row">
+                        <div class="col-4 facebook">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="col-4 instagram">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-4 linkedin">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>&#169; Copyright 2020.</h2>
+</footer>
+
+   
+</body>
+
+<script>
+    AOS.init();
+  </script>
+
+
+</html>

@@ -1,0 +1,438 @@
+@media only screen and (min-width: 280px) {
+  header.first {
+    display: none;
+  }
+  header.second {
+    display: block;
+  }
+  header.second .logo-name {
+    margin-top: 10px;
+  }
+  header.second .logo-name h4:nth-child(1) {
+    font-size: 12px;
+  }
+  header.second .logo-name h4:nth-child(2) {
+    font-size: 14px;
+  }
+  .get-care-now {
+    width: 100%;
+    top: 68%;
+  }
+  .free {
+    padding: 0;
+    margin: 0;
+  }
+  .free .card {
+    margin-top: -12rem;
+    width: 100%;
+    height: 42rem;
+  }
+  .free .card form input {
+    width: 100%;
+  }
+  .free .card form select {
+    width: 100%;
+  }
+  .free .col-md-4 {
+    display: none;
+  }
+  .slider2 .image {
+    height: 35vh;
+  }
+  .slider2 .image img {
+    margin-top: 74px;
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+  }
+  .slider2 .text {
+    top: 30%;
+  }
+  .slider2 .text h2 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+  .slider2 .text h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .all-services .model {
+    height: 35rem;
+  }
+  .all-services .model form {
+    display: none;
+  }
+  .all-services .gallery-top {
+    height: 14rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 411px) {
+  header.first {
+    display: none;
+  }
+  header.second {
+    display: block;
+  }
+  #container #slider .slid .line {
+    width: 100%;
+  }
+  .get-care-now {
+    width: 100%;
+    top: 68%;
+  }
+  .about-us {
+    margin-top: 8rem;
+  }
+  .about-us .desc {
+    margin-top: 3rem;
+  }
+  .our-services {
+    margin-top: 4rem;
+  }
+  .our-services .desc {
+    margin-top: 1.2rem;
+    margin-bottom: 0rem;
+  }
+  .our-commitment .desc {
+    margin-bottom: 0;
+  }
+  .free {
+    padding: 0;
+    margin: 0;
+  }
+  .free .card {
+    margin-top: -12rem;
+    width: 100%;
+    height: 39rem;
+  }
+  .free .col-md-4 {
+    display: none;
+  }
+  .nurse-care {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .slider2 .image {
+    height: 45vh;
+  }
+  .slider2 .image img {
+    margin-top: 110px;
+    -webkit-transform: scale(2.6);
+            transform: scale(2.6);
+  }
+  .slider2 .text {
+    top: 30%;
+  }
+  .slider2 .text h2 {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+  .slider2 .text h1 {
+    line-height: 3rem;
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .con {
+    width: 100%;
+    height: 16vh;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header.first {
+    display: none;
+  }
+  header.second {
+    display: block;
+  }
+  #container #slider .slid .line {
+    width: 70%;
+  }
+  .get-care-now {
+    width: 100%;
+    top: 88%;
+  }
+  .about-us {
+    margin-top: 6rem;
+  }
+  .about-us img {
+    margin-top: 8rem;
+  }
+  .free .card {
+    height: 28rem;
+    width: 100%;
+  }
+  .free .card .image {
+    height: 28rem;
+  }
+  .free .card .image img {
+    -webkit-transform: scale(3.3);
+            transform: scale(3.3);
+  }
+  .free .card form input {
+    width: 100%;
+  }
+  .free .card form select {
+    width: 100%;
+  }
+  .free .col-md-4 {
+    display: block;
+  }
+  .nurse-care {
+    margin-bottom: 4rem;
+  }
+  .nurse-care .desc {
+    padding: 2rem;
+  }
+  .nurse-care .image {
+    margin-top: 4rem;
+  }
+  .nurse-care .para {
+    height: 20rem;
+    overflow: auto;
+  }
+  .all-services .model {
+    height: 55rem;
+  }
+  .all-services .model form {
+    display: block;
+  }
+  .all-services .gallery-top {
+    height: 24rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header.first {
+    display: block;
+  }
+  header.first nav {
+    height: 6vh;
+  }
+  header.first nav.sticky {
+    height: 6vh;
+  }
+  header.second {
+    display: none;
+  }
+  #container #slider .slid .line {
+    width: 50%;
+  }
+  .get-care-now {
+    top: 82%;
+    width: 100%;
+  }
+  .about-us {
+    margin-top: 8rem;
+  }
+  .about-us .desc {
+    margin-top: 3rem;
+  }
+  .free .card {
+    margin-top: -12rem;
+    width: 100%;
+    height: 28rem;
+  }
+  .free .card .image {
+    height: 28rem;
+  }
+  .free .card .image img {
+    margin-top: 7rem;
+    width: 100%;
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+  }
+  .free .card form input {
+    width: 100%;
+  }
+  .free .card form select {
+    width: 100%;
+  }
+  .free .col-md-4 {
+    display: block;
+  }
+  .nurse-care .desc {
+    padding-top: 4rem;
+  }
+  .nurse-care .desc .para {
+    height: auto;
+    overflow: visible;
+  }
+  .slider2 .image {
+    height: 40vh;
+  }
+  .slider2 .image img {
+    margin-top: 100px;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  .slider2 .text {
+    top: 25%;
+  }
+  .slider2 .text h2 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+  }
+  .slider2 .text h1 {
+    line-height: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .all-services .model {
+    height: 45rem;
+  }
+  .all-services .model form {
+    display: block;
+  }
+  .all-services .gallery-top {
+    height: 24rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  header.first {
+    margin: 3rem 0;
+    display: block;
+  }
+  header.first nav {
+    height: 10vh;
+  }
+  header.first nav.sticky {
+    height: 10vh;
+  }
+  header.second {
+    display: none;
+  }
+  .get-care-now {
+    top: 85%;
+    width: 100%;
+  }
+  .about-us img {
+    margin: 0;
+  }
+  .free .card {
+    width: 100%;
+    height: 29rem;
+  }
+  .free .card .image {
+    height: 29rem;
+  }
+  .free .card .image img {
+    margin-top: 7rem;
+    width: 100%;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  .free .card form {
+    text-align: left;
+    margin: 3rem 1rem;
+  }
+  .free .card form input {
+    width: 100%;
+  }
+  .free .card form select {
+    width: 100%;
+  }
+  .free .col-md-4 {
+    display: block;
+  }
+  .nurse-care .desc {
+    padding: 4rem;
+  }
+  .nurse-care .desc .para {
+    height: auto;
+    overflow: visible;
+  }
+  .slider2 .image {
+    height: 60vh;
+  }
+  .slider2 .image img {
+    margin: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 70%;
+    width: 100%;
+  }
+  .slider2 .text {
+    top: 40%;
+  }
+  .slider2 .text h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .slider2 .text h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .all-services .model {
+    height: 33rem;
+  }
+  .all-services .model form {
+    display: block;
+  }
+  .all-services .gallery-top {
+    height: 24rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  header.first {
+    margin: 3rem 0;
+    display: block;
+  }
+  header.first nav {
+    height: 5vh;
+  }
+  header.first nav.sticky {
+    height: 5vh;
+  }
+  header.second {
+    display: none;
+  }
+  .get-care-now {
+    top: 85%;
+  }
+  .slider2 .image {
+    height: 65vh;
+  }
+  .slider2 .image img {
+    margin: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 70%;
+    width: 100%;
+  }
+  .slider2 .text {
+    top: 40%;
+  }
+  .slider2 .text h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .slider2 .text h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .all-services .model {
+    height: 55rem;
+  }
+  .all-services .model form {
+    display: none;
+  }
+  .all-services .gallery-top {
+    height: 24rem;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

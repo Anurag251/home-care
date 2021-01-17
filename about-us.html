@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- jquery -->
+    <script src="jquery/jquery.js"></script>
+
+    <!-- javaScript -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js" defer></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+    <script src="js/swiper.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/swiper.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="first" id="first">
+        <nav>
+            <div class="logo-name">
+                <span>CAREPOINT HOME</span><br>
+                <span>CARE SERVICES</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <!-- <input type="checkbox" id="btn-1"> -->
+                    <!-- <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                    </ul> -->
+                </li>
+                <!-- <li> -->
+                    <!-- <a href="#">Product Page</a> -->
+                    <!-- <input type="checkbox" id="btn-2"> -->
+                    <!-- <ul>
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li>
+                            <a href="#">More <span class="fa fa-plus"></span></a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="#">Product 1</a></li>
+                                <li><a href="#">Product 2</a></li>
+                                <li><a href="#">Product 3</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                <!-- </li> -->
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- side-nav -->
+<header class="second">
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="logo-name">
+                    <h4>CAREPOINT HOME</h4>
+                    <h4>CARE SERVICES</h4>
+                </div>
+            </div>
+            <div class="col-5"></div>
+            <div class="col-2">
+                <div class="button">
+                    <button class="open-slide" onclick="openSlideMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="side-menu" class="side-nav">
+      <a href="#" onclick="closeSlideMenu()" class="btn-close">&times;</a>
+      <ul>
+        <li class="logo">
+          <img src="img/logo.png" alt="">
+        </li>
+        <li>
+          <a href="index.html" class="home-btn">Home
+          </a>
+        </li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li>
+          <a href="about-us.html" class="about-btn">About Us
+            <!-- <span class="fas fa-caret-down second"></span> -->
+          </a>
+          <!-- <ul class="about-show">
+            <li><a href="about-us.html">All About Us</a></li>
+          </ul> -->
+        </li>
+        <li>
+          <a href="services.html" class="serv-btn">Services
+            <!-- <span class="fas fa-caret-down third"></span> -->
+          </a>
+          <!-- <ul class="serv-show">
+            <li><a href="services.html">All Services</a></li>
+          </ul> -->
+        </li>
+        <!-- <li> -->
+          <!-- <a href="#" class="prod-btn">Product Page -->
+            <!-- <span class="fas fa-caret-down fourth"></span> -->
+          <!-- </a> -->
+          <!-- <ul class="prod-show">
+            <li><a href="#">All Product</a></li>
+          </ul> -->
+        <!-- </li> -->
+      </ul>
+    </div>
+  </header>
+
+<div class="slider2">
+    <div class="image">
+        <img src="img/slider4.jpg" alt="">
+    </div>
+    <div class="text">
+        <h2>We do whatever it takes to bring you peace</h2>
+        <h1>ABOUT US</h1>
+    </div>
+</div>
+
+
+<!-- nurse-care -->
+<div class="nurse-care">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image">
+                    <img src="img/nurse.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="desc">
+                    <h5>Nursing Care at Home</h5>
+                    <h6>( 24 hours Personal Nurcing care )</h6>
+                    <div class="para">
+                        <p>A nurse is the centre of home health care team. Our home health. Care nurses are selected through experience
+                            process. they are qualified, redistered and have year of experience in multi-hospital.
+                            <br> <br>
+                            Our senior clinical nurses supenisors visit patients in the hospital or at their home carefully.Our carepoint home care nurses
+                            assist patients during recovery from surgery, injury or illness, helps in managing chronic disease like Cancer, Diabetis, Melicus etc.
+                            provice a wide range of nursing services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="our-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h5>Meet Our Team</h5>
+                    <h6>A professional & friendly care provider</h6>
+                    <p>We are committed to providing our customers with exceptional service while offering our employees the best training</p>
+                </div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero1.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Sunita Karki</h4>
+                                            <h5>Health assistant</h5>
+                                            <p>Aarogya polyclinic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero2.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Prasant Pandey</h4>
+                                            <h5>Lab assistant</h5>
+                                            <p>Ganeshman singh memorial hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero3.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Sabin Bista</h4>
+                                            <h5>BMLT</h5>
+                                            <p>Mediquest diagnostic</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero4.jpg" alt="" class="image" style="transform: scale(1.7); margin-top: 35px;">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Somina Karki</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>Gems school, Sumeru hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero5.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Pinkey Shah</h4>
+                                            <h5>Pharmacist</h5>
+                                            <!-- <p>Gems school, Sumeru hospital</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero6.jpg" alt="" class="image" style="transform: scale(1.4); margin-top: 30px;">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Binita Shrestha</h4>
+                                            <h5>MN (seniors nrs)</h5>
+                                            <p>Mediciti hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero7.jpg" alt="" class="image" style="transform: scale(1.2); margin-top: 10px;">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Nirmala Oli</h4>
+                                            <h5>CMA(community medical assistance)</h5>
+                                            <p>Global hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero8.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Nisha Kunwar</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>Kist hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero9.jpg" alt="" class="image" style="transform: scale(1.2); margin-top: 10px;">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Zenny Shahi</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>GMSH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero10.jpg" alt="" class="image" style="transform: scale(1.4); margin-top: 30px;">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Shristi Shai</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>Norvic hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero11.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Asmita Sha</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>Ganeshman singh memorial hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero12.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Shubeshwor Yadav</h4>
+                                            <h5>Health assistant</h5>
+                                            <p>Jeena medical hall</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero13.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Lila Tamang</h4>
+                                            <h5>Staff nurse</h5>
+                                            <p>Ganeshman singh memorial hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <div class="con">
+                                <img src="img/hero14.jpg" alt="" class="image">
+                                <div class="overlay overlayLeft">
+                                    <div class="text">
+                                        <div class="desc">
+                                            <ul style="display: flex;">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                            </ul>
+                                            <h4>Rajesh Ghalan</h4>
+                                            <h5>Health assistant</h5>
+                                            <p>Sumeru hospital</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="text">
+                    <h5><i class="fas fa-phone"></i> +977-9801234567</h5>
+                    <h5 style="text-transform: lowercase;"><i class="fas fa-envelope"></i> abc@carepoint.com</h5>
+                    <h5><i class="fas fa-map"></i> Nepal, Kathmandu, Ratnapark</h5>
+                    <form action="">
+                        <h4>Subscribe</h4>
+                        <input type="email" placeholder="Enter your email"><button><i class="far fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Usefull Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Product Page</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Services</h4>
+                    <h5><span> Post Hospitalization:</span> As in the Case of Chronic patient and surgery patients takes care of you at your home.</h5>
+                    <h5><span> Home-base oncological Care: </span> To help you in this difficultie period it takes to provide that cancer patient a better quality life.</h5>
+                    <h5><span> Dressing Services:</span> Surgery dressing, Wound dressing, Boil, Absec Dressing, Nail extended.</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="text">
+                    <h4>Follow Us</h4>
+                </div>
+                <div class="links">
+                    <div class="row">
+                        <div class="col-4 facebook">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="col-4 instagram">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-4 linkedin">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>&#169; Copyright 2020.</h2>
+</footer>
+
+</body>
+</html>
